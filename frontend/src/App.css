@@ -55,6 +55,23 @@
   overflow: hidden; /* Avoid double scrollbars, let editor scroll if needed */
 }
 
+.logout-btn {
+  background: transparent;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: var(--error);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.logout-btn:hover {
+  background: rgba(239, 68, 68, 0.1);
+  border-color: var(--error);
+}
+
 @keyframes pulse {
   0% { transform: scale(0.95); opacity: 0.5; }
   50% { transform: scale(1.1); opacity: 1; }
